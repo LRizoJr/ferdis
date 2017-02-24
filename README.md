@@ -15,5 +15,5 @@ Additional Pages/Features:
 
 ##Tech Stack
 - Angular 2 Front End
-- .NET Core
+- ASP.NET Core Web API Back End
 - Database TBD
