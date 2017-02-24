@@ -1,4 +1,4 @@
-# Ferdi's
+# Ferdi's ![Ferdi's](ferdis/FerdisLogo.jpg "Ferdi's!")
 Ferdi's Ice Cream Site! 
 
 ##Phase I Feature List
