@@ -12,3 +12,8 @@ Additional Pages/Features:
 - Ability to vote on flavors of the week
 - Reporting and Analytics on Orders
 - Item Bill of Material Details for Costing and Reporting
+
+##Tech Stack
+- Angular 2 Front End
+- .NET Core
+- Database TBD
