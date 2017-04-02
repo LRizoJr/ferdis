@@ -30,7 +30,8 @@ namespace ferdis
         public void ConfigureServices(IServiceCollection services)
         {
             // Add framework services.
-            services.AddDbContext<DAL.FerdiDBContext>(options => options.UseNpgsql("FerdiDB"));
+            var postgresConnString = Configuration.GetConnectionString("FerdiDB");
+            services.AddDbContext<DAL.FerdiDBContext>(options => options.UseNpgsql(postgresConnString));
             services.AddMvc();
         }
 
