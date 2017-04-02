@@ -2,8 +2,8 @@
 import { IItem } from './item.model';
 
 @Component({
-    selector: 'item-thumbmail',
-    templateUrl: 'app/components/items/item-thumbnail.component'
+    selector: 'item-thumbnail',
+    templateUrl: './item-thumbnail.component.html'
 })
 export class ItemThumbnailComponent implements OnInit {
     ngOnInit() {

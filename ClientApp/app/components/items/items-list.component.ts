@@ -1,8 +1,8 @@
 ﻿import { Component, OnInit } from '@angular/core';
 
 @Component({
-    templateUrl: 'app/components/items/items-list.component',
-
+    selector: 'items-list',
+    templateUrl: './items-list.component.html'
 })
 export class ItemsListComponent implements OnInit {
     ngOnInit() {

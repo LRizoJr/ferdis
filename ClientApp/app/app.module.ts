@@ -6,6 +6,8 @@ import { NavMenuComponent } from './components/navmenu/navmenu.component';
 import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { ItemsListComponent } from './components/items/items-list.component';
+import { ItemThumbnailComponent } from './components/items/item-thumbnail.component';
 
 @NgModule({
     bootstrap: [ AppComponent ],
@@ -14,7 +16,9 @@ import { CounterComponent } from './components/counter/counter.component';
         NavMenuComponent,
         CounterComponent,
         FetchDataComponent,
-        HomeComponent
+        HomeComponent,
+        ItemsListComponent,
+        ItemThumbnailComponent
     ],
     imports: [
         UniversalModule, // Must be first import. This automatically imports BrowserModule, HttpModule, and JsonpModule too.
